@@ -8,8 +8,11 @@ routes.post('/signup', signUpValidation, controller.signUp)
 
 routes.post('/login', controller.login)
 
+
+
+routes.post('/insertproduct', controller.insertProducts)
+
 routes.get('/welcome', auth, (req, res) => {
     res.send('welcome')
 })
-
 module.exports = routes;
