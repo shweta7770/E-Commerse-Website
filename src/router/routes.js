@@ -9,7 +9,7 @@ routes.post('/signup', signUpValidation, controller.signUp)
 routes.post('/login', controller.login)
 
 
-
+routes.get('/getproducts', controller.getProducts)
 routes.post('/insertproduct', controller.insertProducts)
 
 routes.get('/welcome', auth, (req, res) => {
