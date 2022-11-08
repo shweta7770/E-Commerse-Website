@@ -5,14 +5,14 @@ const signUpValidation = require('../validation/signUp.validation')
 const auth = require('../middleware/auth')
 
 routes.post('/signup', signUpValidation, controller.signUp)
-
 routes.post('/login', controller.login)
-
-
-routes.get('/getproducts', controller.getProducts)
 routes.post('/insertproduct', controller.insertProducts)
+routes.get('/getproducts', controller.getProducts)
+routes.get('/getsingleproduct', controller.getSingleProduct)
 
 routes.get('/welcome', auth, (req, res) => {
     res.send('welcome')
 })
+
+
 module.exports = routes;
