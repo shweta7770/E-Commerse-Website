@@ -12,7 +12,7 @@ app.use(bodyparser.json())
 app.use(cors({
     origin: 'http://localhost:3000/',
 }))
-
+//test
 app.use('/', routes)
 
 
