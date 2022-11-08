@@ -9,8 +9,11 @@ require('./src/db/conn')
 const cors = require('cors')
 
 app.use(bodyparser.json())
+app.use(cors({
+    origin: 'http://localhost:3000/',
+}))
 app.use('/', routes)
-app.use(cors());
+
 
 
 
