@@ -5,7 +5,7 @@
         "img": "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg",
         "category": "Electronics",
         "stock": 50,
-        "price": "45.89"
+        "price": 45.89
     },
     {
         "title": "CAN USB FD Adapter (GC-CAN-USB-FD)",
@@ -13,7 +13,7 @@
         "img": "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg",
         "category": "Electronics",
         "stock": 40,
-        "price": "315.00"
+        "price": 315.00
     },
     {
         "title": "CHARMOUNT Full Motion TV Wall Mount Swivel",
@@ -21,7 +21,7 @@
         "img": "https://m.media-amazon.com/images/I/61VD7JR9I9L._SX522_.jpg",
         "category": "Electronics",
         "stock": 40,
-        "price": "1199.00"
+        "price": 40000.00
     },
     {
         "title": "Bose QuietComfort 35 II Wireless Bluetooth Headphones",
@@ -29,7 +29,7 @@
         "img": "https://elcytec.com/wp-content/uploads/2021/07/81jNVOUsJL._SL1500_-600x600.jpg",
         "category": "Electronics",
         "stock": 10,
-        "price": "7004.00"
+        "price": 7004.00
     },
     {
         "title": "Apple AirPods with Charging Case (Wired)",
@@ -37,38 +37,173 @@
         "img": "https://itechstore.co.in/wp-content/uploads/2022/09/r1626_AirPods_Pro_2nd_Gen_PDP_Image_Position-1_v1_Avail__en-IN.jpg",
         "category": "Electronics",
         "stock": 10,
-        "price": "7004.00"
+        "price": 7004.00
     },
     {
-        "title": "Cable Boom Microphone - Volume Control for Playstation PS4 or Xbox",
-        "desc": "AirPods with Charging Case: More than 24 hours listening time, up to 18 hours talk time; level. You get deeper into your music, your work, or whatever you want to focus on. That's the power of Bose QuietComfort 35 wireless headphones II. Put them on and get closer to what you're most passionate about. And that's just the beginning. QuietComfort 35 wireless headphones II are now enabled with Bose AR",
-        "img": "https://audioarray.in/wp-content/uploads/2022/07/ZTD11B-1.jpg",
-        "category": "Electronics",
-        "stock": 5,
-        "price": "2999.00"
-    },
-    {
-        "title": "Nikon D3500 W/ AF-P DX NIKKOR 18-55mm f/3.5-5.6G VR Black ",
-        "desc": "AirPods with Charging Case: More than 24 hours listening time, up to 18 hours talk time; level. You get deeper into your music, your work, or whatever you want to focus on. That's the power of Bose QuietComfort 35 wireless headphones II. Put them on and get closer to what you're most passionate about. And that's just the beginning. QuietComfort 35 wireless headphones II are now enabled with Bose AR",
-        "img": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1605331296/Croma%20Assets/Imaging/Camera%20and%20Camcorders/Images/8934481002526.png/mxw_1650,f_auto",
-        "category": "Electronics",
-        "stock": 5,
-        "price": "81000.00"
-    },
-    {
-        "title": "Apple MacBook Air (13-inch, 8GB RAM, 256GB SSD Storage) - Space Gray",
-        "desc": "AirPods with Charging Case: More than 24 hours listening time, up to 18 hours talk time; level. You get deeper into your music, your work, or whatever you want to focus on. That's the power of Bose QuietComfort 35 wireless headphones II. Put them on and get closer to what you're most passionate about. And that's just the beginning. QuietComfort 35 wireless headphones II are now enabled with Bose AR",
-        "img": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1664423222/Croma%20Assets/Computers%20Peripherals/Laptop/Images/256711_0_cjayuw.png/mxw_1650,f_auto",
-        "category": "Electronics",
-        "stock": 5,
-        "price": "81000.00"
-    },
-    {
-        "title": "Kauffman Orchards Homegrown McIntosh Apples",
-        "desc": "AirPods with Charging Case: More than 24 hours listening time, up to 18 hours talk time; level. You get deeper into your music, your work, or whatever you want to focus on. That's the power of Bose QuietComfort 35 wireless headphones II. Put them on and get closer to what you're most passionate about. And that's just the beginning. QuietComfort 35 wireless headphones II are now enabled with Bose AR",
-        "img": "https://cdn11.bigcommerce.com/s-cc4vwikzsm/images/stencil/500x500/products/790/30620/full__90498.1663168477.jpg?c=1",
+        "title": "Fresh Ginger, 100g",
+        "desc": "It is stacked with supplements and bioactive mixes. Good source of Vitamin B6, C, Potassium, Manganese and Dietary Fiber",
+        "img": "https://m.media-amazon.com/images/I/61SCxbFGpWL._SX679_.jpg",
         "category": "Food",
-        "stock": 5,
-        "price": "810.00"
+        "stock": 100,
+        "price": 14.00
+    },
+    {
+        "title": "Fresh Apple Shimla, 4 Pieces",
+        "desc": "100% Wax Free.Pack contains 4 pieces.Good source of Vitamin C, Dietary Fiber, Flavonoids and antioxidants",
+        "img": "https://m.media-amazon.com/images/I/81kptILNo7L._SX679_.jpg",
+        "category": "Food",
+        "stock": 220,
+        "price": 120.00
+    },
+    {
+        "title": "Fresh Tender Coconut, 1 Piece",
+        "desc": "Natural and tasty energy drink.Rich in antioxidants.",
+        "img": "https://m.media-amazon.com/images/I/81Tpge1r7SL._SX679_.jpg",
+        "category": "Food",
+        "stock": 300,
+        "price": 55.00
+    },
+    {
+        "title": "Fresh Kiwi Fruit - Imported. 3 Pieces",
+        "desc": "Healthy Food",
+        "img": "https://m.media-amazon.com/images/I/81zGv3nGy9L._SX679_.jpg",
+        "category": "Food",
+        "stock": 400,
+        "price": 105.00
+    },
+    {
+        "title": "Fresh Bhendi, 500g",
+        "desc": "It tastes mild and slightly grassy",
+        "img": "https://m.media-amazon.com/images/I/71HPEFBay8L._SX679_.jpg",
+        "category": "Food",
+        "stock": 50,
+        "price": 20.00
+    },
+    {
+        "title": "Fresh Onion, 1kg",
+        "desc": "Rich in antioxidants. Good source of manganese, copper, Vitamin B6, Vitamin C and Dietary Fibers",
+        "img": "https://m.media-amazon.com/images/I/61XSlDa7quL._SX679_.jpg",
+        "category": "Food",
+        "stock": 100,
+        "price": 2999.00
+    },
+    {
+        "title": "Men's Regular T-Shirt",
+        "desc": "Care Instructions: Machine Wash",
+        "img": "https://m.media-amazon.com/images/I/71YT0iMQTLL._UX569_.jpg",
+        "category": "Fashion",
+        "stock": 100,
+        "price": 519.00
+    },
+    {
+        "title": "Veirdo Men's Oversized Printed T-Shirt (Pack of 2)",
+        "desc": "Care Instructions: Machine Wash.Fit Type: Loose",
+        "img": "https://m.media-amazon.com/images/I/71Brw1n5ByL._UX569_.jpg",
+        "category": "Fashion",
+        "stock": 100,
+        "price": 749.00
+    },
+    {
+        "title": "U.S. POLO ASSN. Men's Solid Regular Fit Polo",
+        "desc": "100% Cotton. Care Instructions: Hand Wash Only",
+        "img": "https://m.media-amazon.com/images/I/81KB8ehU+-L._UX569_.jpg",
+        "category": "Fashion",
+        "stock": 100,
+        "price": 299.00
+    },
+    {
+        "title": "Tulsyan Fashion Men's Jacquard Kurta Festival Function Wear",
+        "desc": "Care Instructions: Hand Wash Only.Fit Type: Regular",
+        "img": "https://m.media-amazon.com/images/I/51JeEQRb2fL._UY741_.jpg",
+        "category": "Fashion",
+        "stock": 190,
+        "price": 999.00
+    },
+    {
+        "title": "ETHNIC WEAR",
+        "desc": "Care Instructions: Hand Wash Only",
+        "img": "https://m.media-amazon.com/images/I/81uUt7bKeOL._UY741_.jpg",
+        "category": "Fashion",
+        "stock": 100,
+        "price": 499.00
+    },
+    {
+        "title": "Ajanta Abstract Metal Quartz Wall Clock (32 cm x 32 cm x 3.5 cm, White)",
+        "desc": "Care instructions: Wipe clean with a damp cloth.",
+        "img": "https://m.media-amazon.com/images/I/71Q7VeAsGRL._SX522_.jpg",
+        "category": "Home & Kitchen",
+        "stock": 100,
+        "price": 465.00
+    },
+    {
+        "title": "Godrej Aer Power Pocket | Air Freshener- Bathroom and Toilet | Lasts Up to 30 days | Assorted Pack of 3 (30g)",
+        "desc": "Contains any 3 units of our 5 variants (3x10g) - Lavender Bloom, Sea Breeze, Fresh Blossom, Floral Delight and Berry Rush",
+        "img": "https://m.media-amazon.com/images/I/71Svq-1WNuL._SX679_PIbundle-3,TopRight,0,0_AA679SH20_.jpg",
+        "category": "Home & Kitchen",
+        "stock": 200,
+        "price": 199.00
+    },
+    {
+        "title": "Kuber Industries Non Woven Fabric Saree Cover",
+        "desc": "PACKAGE CONTAIN: 3 Pieces Non Woven Saree Cover",
+        "img": "https://m.media-amazon.com/images/I/71eWl1nnHdL._SY679_.jpg",
+        "category": "Home & Kitchen",
+        "stock": 300,
+        "price": 2999.00
+    },
+    {
+        "title": "Amazon Brand - Solimo Wax Tealight Candles (Set of 100, Unscented)",
+        "desc": "These candles are smokeless, odorless and do not leave any soot residue",
+        "img": "https://m.media-amazon.com/images/I/61lR93HHNiL._SX522_.jpg",
+        "category": "Home & Kitchen",
+        "stock": 40,
+        "price": 380.00
+    },
+    {
+        "title": "Kuber Industries Nylon Mesh Laundry Basket",
+        "desc": "PACKAGE CONTAINS: 1 Piece Laundry Basket",
+        "img": "https://m.media-amazon.com/images/I/31hmQqq7KsL.jpg",
+        "category": "Home & Kitchen",
+        "stock": 56,
+        "price": 99.00
+    },
+    {
+        "title": "It Starts With Us",
+        "desc": "by Colleen Hoover",
+        "img": "https://m.media-amazon.com/images/I/51W-r3VQlAL._SX320_BO1,204,203,200_.jpg",
+        "category": "Books",
+        "stock": 78,
+        "price": 2999.00
+    },
+    {
+        "title": "War of Lanka (Ram Chandra Series Book 4)",
+        "desc": "by Amish Tripathi",
+        "img": "https://m.media-amazon.com/images/I/51JtK7GW3RL._SX324_BO1,204,203,200_.jpg",
+        "category": "Books",
+        "stock": 10,
+        "price": 373.00
+    },
+    {
+        "title": "The Psychology of Money",
+        "desc": "by Morgan Housel",
+        "img": "https://m.media-amazon.com/images/I/41r6F2LRf8L._SX323_BO1,204,203,200_.jpg",
+        "category": "Books",
+        "stock": 50,
+        "price": 249.00
+    },
+    {
+        "title": "My First Library: Boxset of 10 Board Books for Kids ",
+        "desc": "by Wonder House Books",
+        "img": "https://m.media-amazon.com/images/I/51bR0PX1y9L._SY437_BO1,204,203,200_.jpg",
+        "category": "Books",
+        "price": 399.00
+    },
+    {
+        "title": "Life's Amazing Secrets: How to Find Balance and Purpose in Your Life",
+        "desc": "Gaur Gopal Das ",
+        "img": "https://m.media-amazon.com/images/I/51PJyvcfPGL._SX321_BO1,204,203,200_.jpg",
+        "category": "Books",
+        "stock": 500,
+        "price": 160.00
     }
 ]

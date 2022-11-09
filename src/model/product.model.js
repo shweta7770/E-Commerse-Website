@@ -19,7 +19,7 @@ let productSchema = new mongoose.Schema({
         type: String
     },
     stock: { type: String },
-    price: { type: String, required: true }
+    price: { type: Number, required: true }
 
 }, { timestamps: true })
 
