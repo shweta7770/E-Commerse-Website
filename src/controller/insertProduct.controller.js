@@ -5,14 +5,11 @@ const insertProducts = async (req, res) => {
     try {
 
         await ProductTable.deleteMany();
-        console.log('Products are deleted')
+        //console.log('Products are deleted')
 
         await ProductTable.insertMany(products)
-        res.send({ msg: "Products are inserted" })
+        return res.status(200).send({ msg: "Products are inserted" })
         console.log('All products are added')
-
-
-
     } catch (err) {
         console.log(err.message)
 

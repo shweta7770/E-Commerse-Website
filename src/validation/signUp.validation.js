@@ -1,11 +1,11 @@
 const Joi = require("joi")
 
-const signUpValidation = (req, res, next) => {
+const userValidation = (req, res, next) => {
     const Schema = Joi.object().keys({
         name: Joi.string().required(),
-        email: Joi.string().email(),
+        email: Joi.string().email().required(),
         password: Joi.string().required(),
-        mobNumber: Joi.string().length(10).pattern(/^[0-9]+$/),
+        mobNumber: Joi.string().length(10).pattern(/^[0-9]+$/).required(),
         // isAdmin: Joi.boolean()
     })
 
@@ -16,4 +16,4 @@ const signUpValidation = (req, res, next) => {
     next()
 }
 
-module.exports = signUpValidation;
+module.exports = userValidation;

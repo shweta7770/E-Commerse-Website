@@ -1,3 +1,4 @@
+const { find } = require('../model/product.model');
 const ProductTable = require('../model/product.model')
 
 
@@ -7,15 +8,31 @@ const getProducts = async (req, res) => {
         const { page = 1, limit = 5, category, minPrice, maxPrice } = req.query;
 
         if (!category && !minPrice && !maxPrice) {
+
             let allProducts = await ProductTable.find()
-            return res.json({ Products: allProducts })
+            let count = allProducts.length;
+            console.log(count)
+            allProducts = await ProductTable.find().limit(limit).skip((page - 1) * limit);
+
+            return res.json({
+                Products: allProducts,
+                TotalPage: Math.ceil(count / limit),
+                CurrnetPage: page
+            })
         }
+
         const dbQueryParance = []
         if (minPrice && maxPrice)
             dbQueryParance.push({ price: { $gt: minPrice, $lt: maxPrice } })
-        if (category)
-            dbQueryParance.push({ category: category })
+        if (category) {
+            const arr = category.split(',');
 
+            for (let i = 0; i < arr.length; i++) {
+                dbQueryParance.push({ category: arr[i] })
+            }
+        }
+
+        //this for countion documents
         let allProducts = await ProductTable.find({
             $or: dbQueryParance
         })
@@ -26,7 +43,7 @@ const getProducts = async (req, res) => {
             $or: dbQueryParance
         }).limit(limit).skip((page - 1) * limit);
 
-        console.log(count)
+        //console.log(count)
         return res.json({
             Products: allProducts,
             TotalPage: Math.ceil(count / limit),
