@@ -2,18 +2,25 @@ const express = require('express')
 const app = express();
 let dotenv = require('dotenv');
 dotenv.config();
-
-const routes = require('./src/router/routes.js')
+const userRoutes = require('./src/router/user.routes')
+const productRoutes = require('./src/router/product.routes.js')
+const orderRoute = require('./src/router/order.routes')
 const bodyparser = require('body-parser');
 require('./src/db/conn')
-const cors = require('cors')
+const cors = require('cors');
+
 
 app.use(bodyparser.json())
+app.use(bodyparser.urlencoded({ extended: false }))
 app.use(cors({
     origin: 'http://localhost:3000/',
 }))
+
+
 //test
-app.use('/', routes)
+app.use('/user', userRoutes)
+app.use('/product', productRoutes)
+app.use('/order', orderRoute)
 
 
 
